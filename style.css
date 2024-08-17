@@ -63,12 +63,17 @@ h1 {
 #texto {
     color:var(--color-terciaria);
 }
+
 #avatar {
     width: 35px;
 }
+
 .perfil {
     display: flex;
     align-items: center;
     gap: 8px;
     font-weight: 800;
+}
+h1:hover {
+    color:var(--color-primaria);
 }
